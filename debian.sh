@@ -139,7 +139,7 @@ if [[ ${EUID} -ne 0 ]]; then
   echo -e ' '${RED}'[!]'${RESET}" This script must be ${RED}run as root${RESET}. Quitting..." 1>&2
   exit 1
 else
-  echo -e " ${BLUE}[*]${RESET} ${BOLD}Kali Linux 2.x post-install script${RESET}"
+  echo -e " ${BLUE}[*]${RESET} ${BOLD}Debian 8.x post-install script${RESET}"
 fi
 
 
